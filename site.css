@@ -1,0 +1,734 @@
+.logo
+{
+    width: 100%;
+    max-width: 100px;
+}
+
+.container c
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    width: 100%;
+    
+
+}
+
+
+.nav-item
+{
+    display: block;
+    margin: 1px;
+    text-align: center;
+    color: red;
+    font-size: 17px;
+
+}
+
+.inputB
+{
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+body
+{
+    background-color: black;
+    color: red;
+}
+
+.inicio
+{
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+    color: red;
+    width: 100%;
+}
+
+.page
+{
+    width: 950px;
+    height: 950px;
+    margin-left: 250px;
+    
+ 
+}
+
+.nav-search
+{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color: red;
+    text-align: center;
+    
+}
+
+.nav
+{
+    align-items: center;
+}
+
+#dropdownMenuButton
+{
+    font-size: 14px;
+    background-color: black;
+
+    color: white;
+
+}
+
+.nav-inicio
+{
+    font-size: smaller;
+    color: red;
+}
+
+.country
+{
+    list-style: none;
+    
+    
+}
+
+.d-flex 
+{
+
+    padding-right: 185px;
+    padding-top: 30px;
+}
+
+.fas
+{
+    padding: 5px;
+    
+}
+
+#carouselExampleCaptions
+{
+    width: 100%;
+    width: 950px;
+    margin-left: 30px;
+}
+
+.card 
+{
+    margin-top: 10px;
+}
+
+.texto1
+{
+    margin-top: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.prAr
+{
+    grid-row: 1/3;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.cardb
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.toto
+{
+    display: none;
+}
+
+#carro4
+{
+    grid-row: 4;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h7, h8, h9, h10, h11, h12
+{
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -40px;
+    background-color: red;
+}
+
+
+#cg
+{
+    position: relative;
+    bottom: -490px;
+}
+
+h4
+{
+    margin-bottom: 0px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    padding-top: 50px;
+    height: 26%;
+    top: 33%;
+    width: 86px;
+    color: red;
+    
+}
+
+h6
+{
+    font-size: x-large;
+    text-align: justify;
+    color: white;
+}
+
+h5
+{
+    font-size: small;
+}
+
+.text-justify
+{
+    font-size: small;
+    color:grey;
+}
+
+.bullet
+{
+    list-style: none;
+}
+
+.foaw
+{
+    size: 100px;
+    font-size: x-large;
+}
+
+.fab
+{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.copy
+{
+    font-size: smaller;
+    color:grey;
+    
+    
+}
+
+#music
+{
+    font-size: small;
+    padding-top: 0px;
+}
+
+#mumu
+{
+    padding-top: 0px;
+}
+
+h3
+{
+    margin-bottom: 17px;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 180px;
+    height: 25px;
+    padding-top: 5px;
+    
+}
+
+#a 
+{
+    position: absolute;
+    padding-bottom: 56.25%;
+    height: 0; 
+    width: 100%;
+    
+}
+
+#logo
+{
+    width: 100%;
+    overflow:hidden
+}
+
+html, body {
+    overflow-x: hidden;
+}
+    
+
+.twitter-widget-1
+{
+width:100%;
+}
+.papa{
+    display: none;
+}
+.cel
+{
+    display: none;
+}
+.pape
+{
+    display: none;
+}
+.mame
+{
+    display: none;
+}
+.ca
+{
+    display: none;
+}
+.bubu
+{
+    display: none;
+}
+.ddd
+{
+    height: 540px;
+}
+.gugu
+{
+    display: none;
+}
+
+@media only screen and (min-width:768px)
+{
+    .pais
+    {
+        display: none;
+    }
+    #pa
+    {
+        padding-right: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1204px) and (min-width: 375px) {
+    .d-flex 
+    {
+       padding-right: 0px; 
+    }
+
+    .pais, #pa
+    {
+        display: none;
+    }
+    .paisPalavra{
+        display: none;
+    }
+    .nav-inicio
+    {
+        width: 100%;
+    }
+    .papa{
+        display: flex;
+    }
+    .inicio
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 100%;
+    }
+    .nav-link
+    {
+        padding: 10px;
+    }
+
+    .d-flex
+    {
+        text-align: center;
+    }
+    .nav-search
+    {
+        width: 1000px;
+    }
+    .logo
+    {
+        padding-left: 400px;
+        padding-bottom: 10px;
+    }
+    .texto1
+    {
+        padding-left: 10px;
+    }
+    h1
+    {
+        font-size: x-large;
+    }
+    .data
+    {
+        font-size: small;
+    }
+    .sex
+    {
+        padding-top: 19px;
+    }
+    .edu
+    {
+        height: 210px;
+    }
+    .cor
+    {
+        height: 200px;
+    }
+    h7, h8, h9, h10, h11, h12
+    {
+        font-size: x-large;
+    }
+    h4
+    {
+        font-size: larger;
+    }
+
+    .fp
+    {
+        display: none;
+    }
+    .music
+    {
+        width:128px; 
+        height: 70px;
+    }
+    .jok
+    {
+        height: 110px;
+    }
+    .rato
+    {
+        display: none;
+    }
+    .vid
+    {
+        width: 290px;
+    }
+    .cel
+    {
+        display: none;
+    }
+    .gugu
+    {
+        display: none;
+    }
+    .sasa
+    {
+        width: 300px;
+    }
+
+  }
+
+  @media screen and (max-width: 996px) 
+  {
+    .logo
+    {
+        padding-left: 260px;
+        padding-bottom: 10px;
+    }
+        .cel
+    {
+        display: inline;
+    }
+    .menG
+    {
+        display: none;
+    }
+    .nemu
+    {
+        padding-top: 19px;
+    }
+    .mune
+    {
+        padding-bottom: 19px;
+    }
+    .grand
+    {
+        height: 388px;
+    }
+    .uwu li
+    {
+        bottom: 100px;
+    }
+    .sumir
+    {
+        display: none;
+    }
+    .apa
+    {
+        padding-left: 280px;
+        width: 200px;
+    }
+    .laca
+    {
+        display: none;
+    }
+    .cont
+    {
+        height: 40px;
+        font-size: small;
+        
+    }
+    .sade
+    {
+        display: none;
+    }
+    .pape
+    {
+        display: contents;
+
+    }
+
+    .ma
+    {
+        display: none;
+    }
+    .ca
+    {
+        display: flex;
+    }
+    h4
+    {
+        font-size: medium;
+    }
+    .sum
+    {
+        display: none;
+    }
+    .ir
+    {
+        height: 40px;
+    }
+    .pf
+    {
+        margin-top: -18px;
+
+    }
+    .pof
+    {
+        margin-top: -10px;
+    }
+    .poc
+    {
+        margin-top: -8px;
+    }
+    .sic
+    {
+        display: none;
+    }
+    .music
+    {
+        width: 80px;
+    }
+    .fafa
+    {
+        width: 223px;
+    }
+    .ccc
+    {
+        font-size: 10px;
+    }
+    .fi
+    {
+        display: none;
+    }
+    h7, h9, h11
+    {
+        font-size: large;
+    }
+    .apa
+    {
+        width: 100%;
+        height: 100%;
+        max-height: 50px;
+        max-width: 500px;
+        padding-left: 200px;
+        padding-right: 80px;
+        padding-bottom: 0px;
+    }
+    
+    .fot
+    {
+        display: none;
+    }
+    .zuzu
+    {
+        margin-top: -200px;
+    }
+    .asu
+    {
+        display: none;
+    }
+    .bubu
+    {
+        display: contents;
+        text-align: center;
+    }
+    .gugu
+    {
+        display: none;
+    }
+    .nemu
+    {
+        padding-top: 0px;
+    }
+    .mune
+    {
+        padding-bottom: 0px;
+    }
+    .muneu
+    {
+        padding-bottom: -100px;
+    }
+    .fff
+    {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 377px)
+{
+    .grand
+    {
+        height: 194px;
+        height: 100%;
+    }
+    .uwu li
+    {
+        bottom: 280px;
+    }
+    .asas
+    {
+        height: 286px;
+    }
+    .cucu
+    {
+        display: none;
+    }
+    .mame
+    {
+        display: contents;
+    }
+    .pape
+    {
+        display: none;
+    }
+    .gugu
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 576px)
+{
+    .grand
+    {
+        height: 185px;
+    }
+    .aaa
+    {
+        padding-right: 20px;
+    }
+    .sdsd
+    {
+        margin-right: 18px;
+    }
+    .uwu li
+    {
+        bottom: 290px;
+    }
+    .zaza
+    {
+        display: none;
+    }
+    .fafa
+    {
+        margin-bottom: 110px;
+        width: 340px;
+    }
+    .music
+    {
+        width: 340px;
+        height: 80px;
+    }
+    .sic
+    {
+        display: contents;
+    }
+    .gjgj
+    {
+        display: none;
+    }
+    .gugu
+    {
+        display: contents;
+    }
+    .uuu
+    {
+        margin-top: -160px;
+    }
+    .ccc
+    {
+        font-size: small;
+    }
+    .data
+    {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: smaller;
+    }
+    .tutu
+    {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .cont
+    {
+        margin-left: 10px;
+    }
+    .apa
+    {
+        width: 100%;
+        height: 100%;
+        max-height: 100px;
+        max-width: 500px;
+        padding-left: 100px;
+        padding-right: 80px;
+        margin-top: -30px;
+        
+    }
+    .fff
+    {
+        display: none;
+    }
+    .hhh
+    {
+        display: none;
+    }
+    .toto
+    {
+        display: contents;
+    }
+}
