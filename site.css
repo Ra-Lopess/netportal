@@ -208,6 +208,14 @@ a {
 
 }
 
+.vermeio{
+    background-color: black;
+}
+
+.preio
+{
+    color: red;
+}
 
 .nav-item
 {
@@ -649,6 +657,9 @@ width:100%;
 
   @media screen and (max-width: 996px) 
   {
+    .surto{
+        display: none;
+    }
       
     .logo
     {
@@ -817,6 +828,13 @@ width:100%;
 }
 @media screen and (max-width: 377px) /*Celular em pe*/
 {
+    .ratin{
+        width: 345px;
+        height: 95px;
+    }
+    #ratao{
+        display: block;
+    }
     .card .wrapper {
         background-color: #fff;
         height: 250px;
@@ -857,6 +875,7 @@ width:100%;
 }
 @media screen and (max-width: 576px)
 {
+
     .grand
     {
         height: 185px;
@@ -946,4 +965,22 @@ width:100%;
     {
         display: contents;
     }
+}
+/*ipad deitadooo*/
+@media only screen and (min-device-width: 900px) and (max-device-width: 1024px) and (orientation:landscape){
+
+    .card .wrapper {
+        background-color: #fff;
+        height: 250px;
+        width: 520px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .ratiu{
+        width: 290px;
+        height: 300px;
+    }
+
 }
