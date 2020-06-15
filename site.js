@@ -3,7 +3,7 @@ onload = () => {
     executaPesquisa();
 }
 
-//const API_KEY = 'e213fc91b7504a358567a927bf3dc854';
+const API_KEY = 'e213fc91b7504a358567a927bf3dc854';
 
 function exibeNoticias(){
     let divTela = document.getElementsByClassName('map');
@@ -52,12 +52,12 @@ function exibeNoticias(){
 }
 
 function executaPesquisa(){
-    let query = "filmes";
+    let query = "filme";
 
 
     let xhr = new XMLHttpRequest (); //criou o objeto
     xhr.onload = exibeNoticias; //quando as info chegarem, exibe noticias
-    xhr.open ('GET', `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`); //abriu a requisição
+    xhr.open ('GET', `https://newsapi.org/v2/everything?language=pt&q=${query}&apiKey=${API_KEY}`); //abriu a requisição
     xhr.send(); //enviou a requisição
 }
 

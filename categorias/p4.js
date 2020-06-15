@@ -39,7 +39,7 @@ function executaPesquisa(){
 
     let xhr = new XMLHttpRequest (); //criou o objeto
     xhr.onload = exibeNoticias; //quando as info chegarem, exibe noticias
-    xhr.open ('GET', `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`); //abriu a requisição
+    xhr.open ('GET', `http://newsapi.org/v2/top-headlines?sources=fox-news&apiKey=e213fc91b7504a358567a927bf3dc854`); //abriu a requisição
     xhr.send(); //enviou a requisição
 }
 
