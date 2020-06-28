@@ -61,4 +61,10 @@ function executaPesquisa(){
     xhr.send(); //enviou a requisição
 }
 
-//document.getElementById('btnPesquisa').addEventListener ('click', executaPesquisa); //toda vez que clicar no botao, a função é chamada
+
+function executarBusca(){
+  let query = document.getElementById('TextPesquisa').value;
+  localStorage.setItem("pesquisa", query);
+}
+
+document.getElementById ('btnPESQUISA').addEventListener ('click', executarBusca);
