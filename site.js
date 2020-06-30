@@ -68,3 +68,4 @@ function executarBusca(){
 }
 
 document.getElementById ('btnPESQUISA').addEventListener ('click', executarBusca);
+
